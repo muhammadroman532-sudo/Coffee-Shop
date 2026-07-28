@@ -1,0 +1,881 @@
+body{
+    margin: 0px;
+}
+.do{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:25px 80px;
+}
+.image{
+    background-image:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("https://themewagon.github.io/Koppee/img/carousel-1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.koppee{
+    margin: 0px;
+    font-size: 50px; 
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav{
+    display:flex;
+    gap:35px;
+    margin-left:auto;
+}
+.brown{
+    background: #24150D;
+}
+.fa-mug-hot{
+    margin-right:20px;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+nav a:hover{
+    color:#DA9F5B;
+    transition:.3s;
+}
+nav a.active{
+    color:#DA9F5B;
+    border-bottom:2px solid #DA9F5B;
+    padding-bottom:6px;
+}
+nav a{
+    font-weight:600;
+}
+/* hero section */
+.hero{
+    padding-top: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero button{
+    margin-top: 20px;
+    cursor:pointer;
+    padding: 15px 30px;
+    transition: 0.3s;
+    border-radius: 8px;
+    border: none;
+}
+.hero button:hover{
+    background-color: rgb(63, 27, 27);
+    color: white;
+
+}
+
+.hero h1{
+    font-size:6rem;
+    margin:10px;
+}
+
+
+.hero h2{
+    margin:10px;
+}
+
+
+.hero h3{
+    margin:10px;
+}
+.products{
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.products h3{
+    color: rgb(63, 27, 27);
+    font-size: 1.5rem;
+}
+
+.products h1{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+
+.product-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.product-card{
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px lightgray;
+    transition: .3s;
+}
+
+
+.product-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px gray;
+}
+
+
+.product-card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.product-card h2{
+    margin-top: 20px;
+}
+
+
+.product-card h3{
+    color: rgb(63, 27, 27);
+}
+
+
+.product-card p{
+    line-height: 1.7;
+}
+
+
+.product-card button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(63, 27, 27);
+    color: white;
+    transition: .3s;
+}
+
+
+.product-card button:hover{
+    background-color: black;
+}
+.coffee-table{
+    padding:100px 50px;
+    text-align:center;
+}
+
+.coffee-table h3{
+    color:rgb(63, 27, 27);
+    font-size:1.5rem;
+}
+
+.coffee-table h1{
+    font-size:3rem;
+    margin-bottom:50px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,
+td{
+    border:2px solid rgb(63, 27, 27);
+    padding:20px;
+    text-align:center;
+}
+
+th{
+    background-color:rgb(63, 27, 27);
+    color:white;
+}
+
+tr:hover{
+    background-color:rgb(244, 239, 239);
+}
+/* Footer */
+
+footer{
+    background-color:#24150D;
+    color:white;
+    padding-top:50px;
+}
+
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:0 50px 50px;
+}
+
+
+.footer-section{
+    width:250px;
+}
+
+
+.footer-section h2{
+    margin-bottom:20px;
+}
+
+
+.footer-section p{
+    line-height:1.8;
+}
+
+
+.footer-section a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+
+.footer-section a:hover{
+    color:#DA9F5B;
+}
+
+
+.social-icons a{
+    margin-bottom:15px;
+}
+
+
+.copyright{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid white;
+}
+
+
+.copyright p{
+    margin:0;
+}
+/* CONTACT BANNER */
+
+.contact-banner{
+    text-align:center;
+    padding:100px 50px;
+    background-color:rgb(63, 27, 27);
+    color:white;
+}
+
+
+.contact-banner h1{
+    font-size:4rem;
+}
+
+
+.contact-banner p{
+    font-size:1.3rem;
+}
+
+
+
+/* CONTACT INFORMATION */
+
+.contact-info{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:100px 50px;
+}
+
+
+.info-card{
+    width:300px;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0px 0px 20px lightgray;
+    transition:.3s;
+}
+
+
+.info-card:hover{
+    transform:translateY(-10px);
+}
+
+
+.info-card i{
+    font-size:3rem;
+    color:rgb(63, 27, 27);
+}
+
+
+.info-card h2{
+    margin-top:20px;
+}
+
+
+
+/* CONTACT FORM */
+
+.contact-form{
+    padding:100px 50px;
+    text-align:center;
+}
+
+
+.contact-form h1{
+    margin-bottom:50px;
+}
+
+
+.contact-form form{
+    max-width:700px;
+    margin:auto;
+}
+
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:18px;
+    margin-bottom:20px;
+    border-radius:10px;
+    border:1px solid lightgray;
+    box-sizing:border-box;
+}
+
+
+.contact-form button{
+
+    padding:15px 35px;
+    background-color:rgb(63, 27, 27);
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+
+.contact-form button:hover{
+
+    background-color:black;
+}
+
+
+
+/* OPENING HOURS */
+
+.opening-hours{
+
+    text-align:center;
+    padding:100px 50px;
+    background-color:rgb(245,245,245);
+
+}
+
+
+.opening-hours h1{
+
+    margin-bottom:30px;
+}
+
+
+.opening-hours p{
+
+    font-size:1.2rem;
+    line-height:2;
+}
+
+
+
+/* ABOUT BANNER */
+
+.about-banner{
+
+    padding:100px 50px;
+    text-align:center;
+    background-color: rgb(63, 27, 27);
+    color:white;
+}
+
+
+.about-banner h1{
+
+    font-size:4rem;
+}
+
+
+
+/* OUR STORY */
+
+.our-story{
+
+    padding:100px 50px;
+    text-align:center;
+}
+
+
+.our-story p{
+
+    max-width:900px;
+    margin:auto;
+    line-height:2;
+}
+
+
+
+/* WHY CHOOSE US */
+
+
+.choose-us{
+
+    padding:100px 50px;
+    text-align:center;
+}
+
+
+.choose-cards{
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+
+.choose-card{
+
+    width:300px;
+    padding:30px;
+    box-shadow:0px 0px 20px lightgray;
+    border-radius:15px;
+    transition:.3s;
+}
+
+
+.choose-card:hover{
+
+    transform:translateY(-10px);
+}
+
+
+.choose-card i{
+
+    font-size:3rem;
+    color:#24150D;
+}
+
+
+
+/* MISSION */
+
+
+.mission{
+
+    padding:100px 50px;
+    text-align:center;
+    background-color:rgb(248,248,248);
+}
+
+
+.mission p{
+
+    max-width:800px;
+    margin:auto;
+    line-height:2;
+}
+
+
+
+/* TEAM */
+
+
+.team{
+
+    padding:100px 50px;
+    text-align:center;
+}
+
+
+.team-cards{
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+
+.team-card{
+
+    width:300px;
+    padding:20px;
+    box-shadow:0px 0px 20px lightgray;
+    border-radius:15px;
+    transition:.3s;
+}
+
+
+.team-card:hover{
+
+    transform:translateY(-10px);
+}
+
+
+.team-card img{
+
+    width:100%;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+
+/* STATISTICS */
+
+
+.statistics{
+
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    padding:100px 50px;
+    background-color: rgb(63, 27, 27);
+    color:white;
+    text-align:center;
+}
+
+
+.statistics h1{
+
+    font-size:4rem;
+}
+/* =========================
+   GALLERY BANNER
+========================= */
+
+.gallery-banner{
+    background-color: rgb(63,27,27);
+    color: white;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.gallery-banner h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.gallery-banner p{
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   GALLERY SECTION
+========================= */
+
+.gallery{
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.gallery h1{
+    font-size: 2.8rem;
+    color: rgb(63,27,27);
+    margin-bottom: 50px;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+/* =========================
+   GALLERY CARD
+========================= */
+
+.gallery-card{
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    transition: .4s;
+    cursor: pointer;
+    background: white;
+}
+
+.gallery-card:hover{
+    transform: translateY(-10px);
+}
+
+.gallery-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.gallery-card:hover img{
+    transform: scale(1.1);
+}
+
+
+/* =========================
+   CUSTOMER GALLERY
+========================= */
+
+.customer-gallery{
+    padding: 100px 50px;
+    text-align: center;
+    background-color: rgb(248,248,248);
+}
+
+.customer-gallery h1{
+    font-size: 2.8rem;
+    color: rgb(63,27,27);
+    margin-bottom: 50px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width:992px){
+
+    .gallery-banner{
+        padding: 80px 30px;
+    }
+
+    .gallery-banner h1{
+        font-size: 3rem;
+    }
+
+    .gallery{
+        padding: 80px 30px;
+    }
+
+    .customer-gallery{
+        padding: 80px 30px;
+    }
+
+    .gallery-card{
+        width: 300px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .gallery-banner h1{
+        font-size: 2.5rem;
+    }
+
+    .gallery-banner p{
+        font-size: 1rem;
+    }
+
+    .gallery{
+        padding: 60px 20px;
+    }
+
+    .customer-gallery{
+        padding: 60px 20px;
+    }
+
+    .gallery h1,
+    .customer-gallery h1{
+        font-size: 2.2rem;
+    }
+
+    .gallery-card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .gallery-banner{
+        padding: 60px 15px;
+    }
+
+    .gallery-banner h1{
+        font-size: 2rem;
+    }
+
+    .gallery h1,
+    .customer-gallery h1{
+        font-size: 1.8rem;
+    }
+
+    .gallery-card img{
+        height: 250px;
+    }
+
+}
+/* SERVICES BANNER */
+
+.services-banner{
+    padding:100px 50px;
+    text-align:center;
+    background-color:rgb(63,27,27);
+    color:white;
+}
+
+
+.services-banner h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+
+.services-banner p{
+    font-size:1.3rem;
+}
+
+
+
+/* SERVICES SECTION */
+
+.services{
+    padding:100px 50px;
+    text-align:center;
+}
+
+
+.services h1{
+    font-size:3rem;
+    margin-bottom:50px;
+}
+
+
+.service-cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+
+.service-card{
+    width:300px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px lightgray;
+    transition:.4s;
+}
+
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 0px 25px gray;
+}
+
+
+.service-card i{
+    font-size:3rem;
+    color:rgb(63,27,27);
+}
+
+
+.service-card h2{
+    margin-top:20px;
+}
+
+
+.service-card p{
+    line-height:1.8;
+}
+
+
+
+/* DELIVERY SECTION */
+
+.delivery-service{
+    padding:100px 50px;
+    text-align:center;
+    background-color:rgb(248,248,248);
+}
+
+
+.delivery-service h1{
+    font-size:3rem;
+}
+
+
+.delivery-service p{
+    max-width:700px;
+    margin:30px auto;
+    line-height:2;
+}
+
+
+.delivery-service button{
+    padding:15px 35px;
+    border:none;
+    border-radius:10px;
+    background-color:rgb(63,27,27);
+    color:white;
+    cursor:pointer;
+    transition:.4s;
+}
+
+
+.delivery-service button:hover{
+    background-color:black;
+    transform:translateY(-5px);
+}
+
+
+
+/* SERVICE ICON EFFECT */
+
+.service-card i{
+    transition:.4s;
+}
+
+
+.service-card:hover i{
+    transform:scale(1.2);
+    color:brown;
+}
+
+
+
+/* OPTIONAL IMAGE EFFECT */
+
+.service-card:hover{
+    cursor:pointer;
+}
+
+
+
+/* RESPONSIVE TEXT ALIGNMENT */
+
+.services p,
+.delivery-service p{
+    text-align:center;
+}
+
+
+
